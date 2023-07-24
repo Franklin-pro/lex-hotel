@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -102,6 +102,7 @@ align-items: center;
     background-color: #7c818b;
     padding: 1rem 8rem;
     width: 100%;
+
 }
 .hi{
     display: flex;
@@ -173,3 +174,4 @@ display: grid;
     gap: 3rem;
     align-items: center;
 }
+
