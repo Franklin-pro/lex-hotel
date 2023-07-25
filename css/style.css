@@ -290,6 +290,7 @@ transition: all .3s;
     transition: all .3s;
     border-radius: .3rem;
 }
+
 .book:hover{
     background-color: #FF4105;
     transform: translate(-10px,10px);

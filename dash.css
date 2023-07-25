@@ -16,7 +16,8 @@
 
 }
 .dash-right{
-    background-color: #7c818b;
+    background-color: #161414;
+    padding: 2rem;
 }
 .we{
     width: 40%;
@@ -51,8 +52,124 @@
 .linka:hover{
     color: rgb(112, 192, 112);
 }
+table{
+    width: 100%;
+    padding: 1rem;
+    border-collapse: collapse;
+    border-color: #041331;
+
+   
+}
+.pro{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+}
+
+.rows{
+    text-align: center;
+   
+}
+.rows td{
+    padding: 2rem;
+    color: rgb(115, 230, 153);
+}
+
+
+.table{
+    background-color: #041331;
+padding: 2rem 3rem;
+color: #ddd;
+gap: 2rem;
+justify-content: center;
+font-size: 1.3rem;
+align-items: center;
+
+}
+.loss{
+    background-color: #7c818b;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.view{
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+    font-size: 1.7rem;
+}
  .btn{
     background-color: #7c818b;
-    padding: 1rem 2rem;
+    padding: 1rem 8rem;
     width: 100%;
+}
+.hi{
+    display: flex;
+   gap:.8rem
+}
+.ab-i{
+    display: flex;
+    gap:.8rem
+}
+.wallet{
+    display: flex;
+    gap:.8rem
+}
+.sett{
+    display: flex;
+    gap:.8rem
+}
+.ana{
+    display: flex;
+    gap:.8rem
+}
+.help{
+    display: flex;
+    gap:.8rem
+}
+.policy{
+    display: flex;
+    gap:.8rem
+}
+.card{
+    background-color: #041331;
+    color: #ddd;
+   padding: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.card h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-style: italic;
+}
+.card p{
+    font-size: 1.4rem;
+    color: rgb(117, 172, 117);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    padding: 2rem;
+    justify-content: center;
+}
+.fre{
+    color: rgb(85, 161, 161);
+    padding: 1rem;
+}
+
+/* ---------------------------booking form--------------------- */
+
+.form-cont{
+display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
 }
