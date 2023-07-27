@@ -97,3 +97,11 @@ function im2(){
     
 
   }
+  
+  function tap(){
+    let date = Date();
+    document.querySelector('.check-in').innerHTML = date;
+    document.querySelector('.check-in').style.color="orange";
+}
+
+

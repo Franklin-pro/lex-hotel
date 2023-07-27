@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="dash.css">
 </head>
 <body>
-    <form action="#" method="post">
+  
+        <div class="booking-container">
+           <div class="image">
+                <img src="./image/room2.jpeg" alt="">
+               
+            </div>
         <div class="form-cont">
-        <div class="woww">
+         
+            <h1>BOOKING</h1>
+        
             <label for="name">your-names:</label>
             <input type="text" name="full-name">
             <label for="name">your-email:</label>
             <input type="text" name="full-name">
-        </div>
-            <div class="form">
-            <label for="name">check-in:</label>
-            <input type="text" name="full-name">
-            <label for="name">check:</label>
-            <input type="text" name="full-name"><br><br>
-        </div>
+            <label for="name">phone-number:</label>
+            <input type="text" name="phone">
+       <label for="check-in">check-in</label>
+          <button class="check-in" onclick="tap()">check-in</button>
+       <label for="check-out">check-out</label>
+   
+        
+           <input type="datetime-local" class="check">
+        
+     <h4>price:280$/day</h4>
+
+       <button type="submit" name="send" class="sub" onclick="sample()">Booking</button>
     </div>
-       <button type="submit" name="send">submit</button>
-    </form>
+</div>
+
+    <script src="index.js"></script>
 </body>
 </html>
