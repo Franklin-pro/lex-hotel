@@ -1005,3 +1005,38 @@ input{
     padding: 1rem 0;
    
 }
+
+.swim{
+ width: 100%;
+}
+.swim-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    padding: 2rem;
+    gap: 1rem;
+}
+.swim-img img{
+    display: flex;
+    width: 100%;
+    border-radius: 2rem;
+}
+.swim h1{
+    color: #046cfd;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #060607;
+    text-align: center;
+   }
+   .swim h2{
+    color: #046cfd;
+    padding: 1rem;
+    font-size: 6rem;
+    text-align: center;
+   }
+   .video{
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+   }
