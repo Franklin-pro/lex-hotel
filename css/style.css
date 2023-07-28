@@ -128,7 +128,7 @@ nav{
    top: 0;
    width: 100%;
 z-index: 999;
- 
+ box-shadow: 1px 1px #d7d7df63;
 }
 
 .links{

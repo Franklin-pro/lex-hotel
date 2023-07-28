@@ -224,3 +224,13 @@ form{
     padding: .8rem 9rem;
     width: 70%;
 }
+.pay{
+    display: flex;
+    font-size: 1.7rem;
+    gap: 3rem;
+    align-items: center;
+    cursor: pointer;
+}
+.pay img{
+    border-radius: 50%;
+}
