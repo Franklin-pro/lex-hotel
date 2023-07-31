@@ -234,3 +234,12 @@ form{
 .pay img{
     border-radius: 50%;
 }
+
+/* -----------------responsive------------------------- */
+
+@media(max-width:992px){
+.booking-container{
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -11,7 +11,7 @@ function navOpen(){
 
 function tap(){
     let date = Date();
-    document.querySelector('.opt').innerHTML = date
+    document.querySelector('.opt').innerHTML = date;
 
 }
 function check(){
@@ -98,9 +98,10 @@ function im2(){
 
   }
   
-  function tap(){
+  function taps(){
     let date = Date();
     document.querySelector('.check-in').innerHTML = date;
+ 
     document.querySelector('.check-in').style.color="orange";
 }
 

@@ -127,6 +127,7 @@ nav{
    position: sticky;
    top: 0;
    width: 100%;
+
 z-index: 999;
  box-shadow: 1px 1px #d7d7df63;
 }
@@ -186,6 +187,45 @@ letter-spacing: .2rem;
     position: relative;
     
 }
+
+
+.dropdown{
+list-style: none;
+flex-direction: column;
+justify-content: center;
+ align-items: center; 
+padding: 1rem;
+gap: 1rem;
+ position: absolute; 
+ background-color: #041331d3;
+color: white;
+display: none;
+padding: 1rem;   
+right: 0;
+   }
+   .drop{
+   text-decoration: none;
+   color: white;
+   padding: 1rem;
+
+   }
+   .drop:hover{
+    background-color: #06060773;
+   }
+   .down{
+ padding: 2rem;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+   }
+.dropdown:hover{
+    display: block;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
 .nav-link::after{
     content: '';
     width: 0;
@@ -322,9 +362,10 @@ transition: all .3s;
     color: white;
 }
 .contact-container{
-    background-color: #9fa0a0c2;
+    background-color: #fff4f485;
 backdrop-filter: blur(15px);
-    display: flex;
+padding: 3rem;
+    
 }
 .contact-container h1{
     color: rgb(247, 243, 243);
@@ -334,14 +375,20 @@ backdrop-filter: blur(15px);
     padding: 1rem 5rem;
 }
 
+
 .cont-out{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
+  
     padding: 2rem;
   
+}
+.testoo{
+    display: flex;
+    justify-content: center;
 }
 .cc{
     display: flex;
@@ -364,6 +411,7 @@ backdrop-filter: blur(15px);
     display: flex;
     gap: 2rem;
     padding: 2rem;
+    align-items: center;
     flex-direction: column;
     position: absolute;
 }
@@ -486,6 +534,7 @@ justify-content: center;
 .heads{
     font-size: 3rem;
     padding: 1rem;
+    text-align: center;
     color: #f8f3f3;
     font-style: italic;
 }
@@ -515,7 +564,10 @@ justify-content: center;
     text-decoration: none;
     color: #eee;
     justify-content: center;
-    
+    transition: all .3s;
+}
+.boks:hover{
+    opacity: 0.8;
 }
 .parent{
     display: flex;
@@ -676,6 +728,37 @@ justify-content: center;
 .footer{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: .7rem;
+}
+.demo{
+    color: #ddd;
+    width: 50%;
+    font-style: italic;
+}
+.copy{
+    background-color: #000000;
+    color: #ddd;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ text-align: center;
+ padding: 1rem;
+ border: none;
+ border-bottom: 1px solid #ddd;
 }
 .loc{
     display: flex;
@@ -698,6 +781,10 @@ justify-content: center;
 }
 .linka{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .linka h1{
     color: #eee;
@@ -705,8 +792,8 @@ justify-content: center;
 }
 .linkab{
     display: flex;
-   flex-direction: column;
    gap: 2rem;
+   font-size: 1.3rem;
    padding: .9rem;
 }
 .contact-footer{
@@ -744,7 +831,7 @@ color: white;
 .iconn{
     display: flex;
   
-    gap: 2rem;
+    gap: 3rem;
     padding: 1rem;
     font-size: 1.4rem;
     color: #eee;
@@ -811,6 +898,7 @@ input{
         height: auto;
 
     }
+ 
 
     input{
         width: 80%;
@@ -987,6 +1075,7 @@ input{
         width: 100%;
         padding: 1rem;
        }
+     
     
 }
 
