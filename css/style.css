@@ -365,11 +365,16 @@ transition: all .3s;
     background-color: #fff4f485;
 backdrop-filter: blur(15px);
 padding: 3rem;
+ display: flex;
+
+justify-content: center; 
     
 }
 .contact-container h1{
     color: rgb(247, 243, 243);
     font-style: italic;
+    /* display: flex;
+    justify-content: center; */
 }
 .vh{
     padding: 1rem 5rem;
@@ -1024,6 +1029,16 @@ input{
         width: 100%;
     }
 }
+@media(max-width:593px){
+  
+    .linkab{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .demo{
+        width: 100%;
+    }
+}
 @media(max-width:500px){
     .cards{display: grid;
     flex-wrap: wrap;
@@ -1052,6 +1067,16 @@ input{
         width: 100%;
         padding: 1rem;
        }
+       
+}
+@media(max-width:400px){
+    .linkab{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .demo{
+        width: 100%;
+    }
 }
 @media(max-width:380px){
     .server-card{
@@ -1065,6 +1090,14 @@ input{
     .hrd{
         font-size: 2rem;
     }
+    .iconn{
+        display: flex;
+        gap: 1rem;
+    }
+    .demo{
+        width: 100%;
+        font-size: .8rem;
+    }
     .text h1{
         font-size: 1.4rem;
     }
@@ -1075,7 +1108,9 @@ input{
         width: 100%;
         padding: 1rem;
        }
-     
+     .contact-container{
+       padding: 0;
+     }
     
 }
 
