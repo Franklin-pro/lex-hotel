@@ -14,7 +14,6 @@
        
 <div class="loginse">
     <h1 class="dd">LOGIN</h1>
-    
     <div class="logins">
     <label for="">Email</label>
     <input type="email" placeholder="type email" class="email"required>
@@ -22,28 +21,36 @@
     <input type="password" placeholder="type password" class="pass"required>
 
     <button class="btn" onclick="login()" type="submit">login</button>
+
     <h2></h2>
     <a href="#">forgot password</a>
  <p>you don't have an account here?<button class="rg" onclick="reg()">register</button></p>
 </div>
+
+
+
+<!-- -------------------register---------------------------- -->
+<form action="login.html">
+
 <div class="regi-container">
     <h1 class="de">Register</h1>
  <div class="register">
-   
-    <label for="">Email</label>
-    <input type="email" placeholder="type email">
-    <label for="">Password</label>
-    <input type="password" placeholder="type password">
-    <label for="">Password</label>
-    <input type="password" placeholder="confirm password">
-    <button class="btn" >Register</button>
+
+    <label>Email</label>
+    <input type="email" placeholder="type email" class="email">
+    <label>username</label>
+    <input type="text" placeholder="type username" class="username">
+    <label >Password</label>
+    <input type="password" placeholder="type password" class="pwd">
+    <button class="btn" onclick="store()">Register</button>
   
  <p>if you have an account here?<a href="#" class="rg"  onclick="log()">login</a></p>
 </div>
 </div>
-</div>
-</div>
 
+</div>
+</div>
+</form>
 </center>
 <script src="index.js"></script>
 </body>

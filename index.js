@@ -106,3 +106,31 @@ function im2(){
 }
 
 
+let username = document.querySelector('.username')
+let email = document.querySelector('.email')
+let pwd = document.querySelector('.pwd')
+
+let form = document.querySelector('form');
+
+let get = JSON.parse(localStorage.getItem(get)) || []
+
+form.addEventListener("submit", (e)=>{
+  e.preventDefault()
+
+  let obs={
+    username: username.value,
+    pwd: pwd.value,
+    email:email.value
+
+  }
+
+  if(get.find((check)=>check.email == email.value)){
+    alert("already exist try another email")
+  }
+  else{
+    get.push(obs);
+    let strngfile = JSON.stringify(get)
+    localStorage.setItem("get", strngfile);
+  }
+})
+
