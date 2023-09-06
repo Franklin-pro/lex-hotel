@@ -25,7 +25,7 @@ const hashPassword = bcrypt.hashSync(req.body.password,10)
 
   }catch(error){
    
-      return errorMessage(res,403,error)
+      return errorMessage(res,403,error )
    
   }
 
@@ -43,7 +43,7 @@ const hashPassword = bcrypt.hashSync(req.body.password,10)
     if(!comparePassword){
       return errorMessage(res,403,`invalid password or email`)
     }else{
-      const token =jwt.sign({role:user.role,firstName:user.firstName,email:user.email},process.env.SECRET_KEY,{expiresIn:"id"}) 
+      const token =jwt.sign({role:user.role,firstName:user.firstName,email:user.email},process.env.SECRET_KEY,{expiresIn:"1d"}) 
 
       return successMessage(res,200,token,user)
     }
